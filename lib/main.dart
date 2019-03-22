@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vec_app/description_place.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,9 +25,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("Hola Mundo"),
           ),
-          body: Center(
-            child: Text("Hola Mundo"),
-          )
+          body: new DescriptionPlace("Alejandro Bec",4,"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.")
       ) //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
