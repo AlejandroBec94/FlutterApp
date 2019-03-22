@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:vec_app/description_place.dart';
+import 'package:vec_app/review.dart';
+import 'review_list.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,13 +28,12 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("Application Bec"),
           ),
-          body: new DescriptionPlace(
+          /*body: new DescriptionPlace(
               "Alejandro Bec",
               4,
               "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          ),
-
-
+          ),*/
+          body: ReviewList(),
         ) //MyHomePage(title: 'Flutter Demo Home Page'),
         );
   }
