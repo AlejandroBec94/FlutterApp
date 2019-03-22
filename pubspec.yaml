@@ -74,6 +74,9 @@ flutter:
   assets:
     - assets/img/people-first.jpg
     - assets/img/cancun.jpg
+    - assets/img/playa.jpg
+    - assets/img/playa2.jpg
+    - assets/img/playa3.jpg
 
   fonts:
    - family: Lato
