@@ -83,7 +83,7 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     return Column(
-      children: <Widget>[title_stars, description, new ReviewList()],
+      children: <Widget>[title_stars, description],
     );
   }
 }
