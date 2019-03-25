@@ -6,7 +6,7 @@ class ReviewList extends StatelessWidget{
   String pathImage = "assets/img/people-first.jpg";
   String name = "Varuma Yasas";
   String details = "1 rewiew 5 photos";
-  String comment = "There is an amazing place in Sri Lanka";
+  String comment = "There is an amazing place in Sri jhd";
 
   ReviewList();
 

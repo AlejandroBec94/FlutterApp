@@ -41,12 +41,16 @@ class Review extends StatelessWidget {
 
     final userComment = Container(
       margin: EdgeInsets.only(left: 20.0),
+
       child: Text(
         comment,
         textAlign: TextAlign.left,
         style: TextStyle(
             fontFamily: "Lato", fontSize: 13.0, fontWeight: FontWeight.w900),
+        overflow: TextOverflow.ellipsis,
+
       ),
+
     );
 
     final userInfo = Row(
